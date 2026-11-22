@@ -1,0 +1,14 @@
+◇ injected env (4) from ../.env // tip: ⌁ auth for agents [www.vestauth.com]
+[config] .env check: 2 documented defaults missing. Startup continues.
+[config]   missing from .env: REQUEST_ANALYTICS_MAX_ROWS, REQUEST_ANALYTICS_RETENTION_DAYS
+[config]   Compare .env.example when you next edit your config.
+Database initialized at /home/mattmalkom/freellmapi/server/data/freeapi.db
+[crypto] The loaded encryption key cannot decrypt the provider keys in this database. Every request will fail with "Unsupported state or unable to authenticate data" and nothing will route until this is fixed. The database and the key file (.encryption-key next to it, or ENCRYPTION_KEY) came from different installs — restore the key that belongs to this database, then restart.
+[proxy] Configured → http://***@127.0.0.1:3128 (source: ALL_PROXY)
+[proxy] NO_PROXY direct for: localhost, 127.0.0.1, ::1, 169.254.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16
+Server running on http://0.0.0.0:3003
+Proxy endpoint: http://0.0.0.0:3003/v1/chat/completions
+[Health] Starting health checker (every ~300s ±20%)
+[catalog-sync] re-applied cached monthly v2026.11.16 after boot
+[catalog-sync] polling https://api.freellmapi.co every 12h
+[CooldownProbe] starting cooldown-probe recovery (scan every 60s)
